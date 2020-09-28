@@ -45,7 +45,7 @@ const SmurfForm = (props) => {
                 <input type='text' placeholder='Smurf Name' name='name' onChange={handleChange} />
                 <input type='text' placeholder='Smurf Age' name='age' onChange={handleChange} />
                 <input type='text' placeholder='Smurf Height' name='height' onChange={handleChange} />
-                <button onClick={submitHandler}>Submit</button>
+                <button data-testid="submit button" onClick={submitHandler}>Submit</button>
             </form>
         </div>
     )
